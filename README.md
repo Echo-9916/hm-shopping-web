@@ -1,24 +1,84 @@
-# hm-shopping
+# 电商单页应用项目说明(学习仿制作品)
 
-## Project setup
-```
-npm install
-```
+## 项目介绍
+本项目是一个基于 Vue.js 开发的电商单页应用，实现了商品展示、搜索、详情查看、购物车管理、订单结算、用户中心等核心电商功能，采用 Vant UI 组件库构建界面，通过 Axios 与后端 API 进行数据交互。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 功能模块
+1. **首页模块**
+   - 轮播图展示
+   - 分类导航
+   - 商品列表展示
 
-### Compiles and minifies for production
-```
-npm run build
-```
+2. **商品分类模块**
+   - 分类数据展示
 
-### Lints and fixes files
-```
-npm run lint
-```
+3. **商品搜索与详情**
+   - 商品搜索功能
+   - 商品详情展示
+   - 商品评价查看
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+4. **购物车管理**
+   - 加入购物车
+   - 购物车商品数量修改
+   - 购物车商品删除
+   - 购物车商品勾选与全选
+   - 购物车商品结算
+
+5. **用户中心**
+   - 个人信息查看
+   - 订单管理入口
+
+6. **订单管理**
+   - 订单列表展示
+   - 订单分类查看（全部、待支付、待发货等）
+
+7. **支付功能**
+   - 订单结算
+   - 支付提交
+
+## 技术栈
+- Vue 2.x
+- Vue Router（路由管理）
+- Vuex（状态管理）
+- Vant UI（移动端 UI 组件库）
+- Axios（网络请求）
+- Less（CSS 预处理器）
+
+## 环境要求
+- Node.js v12+
+- npm v6+
+
+## 安装与启动
+0. 直接访问(可能会过期)
+   https://loquacious-moxie-17cd79.netlify.app/#/home
+1. 克隆项目到本地  
+ ```bash
+ git clone git@github.com:Echo-9916/hm-shopping-web.git
+ ```
+2.进入项目目录
+  ```bash
+  cd <项目目录>
+  ```
+3.安装依赖
+  ```bash
+  npm install
+  ```
+4.启动开发服务器
+  ```bash
+  npm run serve
+  ```
+5.访问项目
+  在浏览器中打开 http://localhost:8080 即可访问应用。
+
+
+
+
+
+
+
+
+
+
+
+
+
